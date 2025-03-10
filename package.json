@@ -1,0 +1,30 @@
+{
+  "name": "ts-watchlist-cli",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./dist/watchlist.js",
+  "scripts": {
+    "dev": "ts-node src/watchlist.ts",
+    "build": "tsc",
+    "start": "node dist/watchlist.js"
+  },
+  "bin": {
+    "watchlist": "bin/watchlist.mjs"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.2",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
