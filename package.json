@@ -12,7 +12,6 @@
     "watchlist": "bin/watchlist.mjs"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.6.2",
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
     "chalk": "^5.4.1",
