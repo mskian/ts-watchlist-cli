@@ -31,11 +31,11 @@ importers:
         specifier: ^11.0.4
         version: 11.0.4
       '@types/node':
-        specifier: ^22.15.23
-        version: 22.15.23
+        specifier: ^22.15.29
+        version: 22.15.29
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.15.23)(typescript@5.8.3)
+        version: 10.9.2(@types/node@22.15.29)(typescript@5.8.3)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -96,8 +96,8 @@ packages:
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
-  '@types/node@22.15.23':
-    resolution: {integrity: sha512-7Ec1zaFPF4RJ0eXu1YT/xgiebqwqoJz8rYPDi/O2BcZ++Wpt0Kq9cl0eg6NN6bYbPnR67ZLo7St5Q3UK0SnARw==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/phoenix@1.6.6':
     resolution: {integrity: sha512-PIzZZlEppgrpoT2QgbnDU+MMzuR6BbCjllj0bM70lWoejMeNJAxCchxnv7J3XFkI8MpygtRpzXrIlmWUBclP5A==}
@@ -275,13 +275,13 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.15.23
+      '@types/node': 22.15.29
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.15.23
+      '@types/node': 22.15.29
 
-  '@types/node@22.15.23':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
@@ -289,7 +289,7 @@ snapshots:
 
   '@types/ws@8.18.0':
     dependencies:
-      '@types/node': 22.15.23
+      '@types/node': 22.15.29
 
   acorn-walk@8.3.4:
     dependencies:
@@ -325,14 +325,14 @@ snapshots:
 
   tr46@0.0.3: {}
 
-  ts-node@10.9.2(@types/node@22.15.23)(typescript@5.8.3):
+  ts-node@10.9.2(@types/node@22.15.29)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.15.23
+      '@types/node': 22.15.29
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
